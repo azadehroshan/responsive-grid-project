@@ -1,3 +1,249 @@
 /* Add your CSS here */
 
 /* Dont' forget to link this file to your HTML in the <head> */
+.body{
+  background-color: #EDEDEE;
+}
+@font-face {
+  font-family: Outfit - Extra-light 200;
+  font-style: normal;
+  src: url("https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap");
+  font-weight: normal;
+}
+
+.container-0 .top-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* childs */
+.search{
+}
+.search-items{width: 60%;
+  height: 3em;
+
+}
+.login-user{
+  display: flex;
+  align-items: center;  
+}
+.fa {color:#A05941;
+  font-size: 30px;
+}
+.log-in-text{
+color: #A05941;
+margin: 5px;
+}
+.img-shopping{
+  color:#A05941;
+  font-size: 32px;
+}
+
+.azi{
+  display: flex;
+
+}
+.TEXT-LOGO{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:1rem;
+  color: #fff;
+  letter-spacing:1.5px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 100;
+}
+ /* logo text */
+.main-header {
+  display: flex;
+  color: #A05941;
+  margin:0px;
+  background-color:#EDEDEE;
+}
+/* NAVBAR */
+
+.nav__list {
+  display: flex;
+  list-style: none;
+  height: 100%;
+}
+.nav__link {
+  color:#A05941;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 200;
+}
+.nav__list li {
+  align-items: center;
+  margin: 10px;
+  font-family: 'Outfit', sans-serif;
+}
+.nav__list li a {
+  text-decoration: none;
+}
+.backgound-img {
+  background-image: url(../designs/background-top.jpg);
+  width: 98%;
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #EDEDEE;
+  margin:1px 0% 1px 0%;
+  padding: 2em;
+}
+.text-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1rem;
+    color: #fff;
+    letter-spacing:2.5px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 200;
+}
+.text-2{
+  
+}
+.shop-now{
+  background-color: #A05941;
+  border-style: none;
+} 
+
+
+ /* LAYOUT */
+.flex-item1{ background-image:url(../designs/1hand-cactus-L.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+width: 100%;
+height: 45vh;
+background-position: center;
+}
+.flex-item2{ background-image:url(../designs/1hand-whitef-c.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+width: 98%;
+height: 45vh;
+background-position: center;
+}
+.flex-item3{ background-image: url(../designs/2hand-cactus-right.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+width: 98%;
+height: 45vh;
+background-position: center;
+}
+.shop-collection {
+  padding: .5em 1em;
+  background-color: #A05941;
+}
+.shop{
+  color: #A05941;
+  font-weight: 100px;
+}
+
+
+/* 4-flowers */
+
+.about-us{
+  background-color: #fff;
+  justify-content: center;
+  color: #A05941;
+}
+.two-pics{
+  background-image: url(../designs/2nd-garden-wheelbarrow.jpg);
+  background-image: url(../designs/3rd-leave.jpg);
+}
+.tree
+{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-position: center;
+}
+.OFF{
+  padding:1em 0;;
+    margin-top: 0;
+    background-color: #133032;
+    color: #fff;
+    font-size: 3.75rem;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+.OFF .shop-btn {
+  display: inline-block;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  color: #123123;
+  padding: .7em 2.6em;
+  background-color: #fff;
+  text-decoration: none;
+  font-family: 'Outfit',sans-serif;
+  font-weight: 200;
+}
+
+/* filling form */
+
+.form {
+  text-align: center;
+  background-color: #f7f7ff10
+  }
+ .Send{ 
+  background-color: #A05941;
+  border-color: #A05941;
+  width: 14%;
+  }
+  .info {
+      font-size: 1rem;
+      color: #fff;
+      background-color: #133032;
+      text-align: center;
+      padding:3em 0 2em;
+  }
+  .info-link {
+      color: white;
+  }
+  
+  .social-media i {
+      margin: 3em .5em  .5em;
+  }
+  
+  .location {
+      width: 90%;
+  }
+
+  /* media medium  */
+  
+@media (min-width: 600px) {
+
+  .open-nav,
+  .close-nav {
+      display: none;
+      color: #A05941;
+  }
+
+
+  .main {
+      min-width: 95%;
+      width: auto;
+      margin: 0 auto;
+      display: grid;
+      gap: .3em;
+      grid-template-columns: repeat(4, minmax(90px, 1fr));
+      grid-template-rows: auto 1fr auto;
+      background-color: #f7f7ff10;
+  }
+
+
+  .nav-list {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+  }
+
+  .nav-link {
+      display: inline-block;
+      background-color: #f3c4dd;
+      border-radius: 7px;
+  }
+}
